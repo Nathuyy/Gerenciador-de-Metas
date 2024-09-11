@@ -26,6 +26,10 @@ Nesse evento, criamos um gerenicador de metas chamado "in.orbit"!
 ![image](https://github.com/user-attachments/assets/c58d6b0e-76e1-4c9d-af6b-cb15c2207557)
 
 
-2. Páginas para cadastrar metas:
+2. Página para cadastrar metas:
    
 ![image](https://github.com/user-attachments/assets/f2abd9e4-1c03-40bd-9ee8-a24179c5c8bb)
+
+3. Páginas para visualizar as suas metas:
+
+![alt text](image.png)

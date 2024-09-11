@@ -1,16 +1,14 @@
-import { StrictMode } from 'react'
+// import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { App } from './App.tsx'
+import { App } from './App'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+
 import './index.css'
 
-const rootElement = document.getElementById('root')
+const queryClient = new QueryClient()
 
-if (rootElement) {
-  createRoot(rootElement).render(
-    <StrictMode>
-      <App />
-    </StrictMode>
-  )
-} else {
-  console.error('Root element not found!')
-}
+createRoot(document.getElementById('root')!).render(
+  <QueryClientProvider client={queryClient}>
+    <App />
+  </QueryClientProvider>
+)
